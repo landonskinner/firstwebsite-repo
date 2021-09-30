@@ -59,7 +59,7 @@ body {
     color: white;
 }
 
-#intro {
+.intro {
     color: #477665;
     font-size: 35px;
     text-align: center;
@@ -100,12 +100,14 @@ body {
     font-size: 30px;
     padding-top: 10px;
     padding-left: 20px;
+    margin-top: 5px;
 }
 
 #intro-text p {
     color: white;
     padding-right: 40px;
     padding-left: 20px;
+    font-size: 17px;
 }
 
 #interest-text {
@@ -130,6 +132,7 @@ body {
 
 #interest-text ul {
     margin-left: 30px;
+    font-size: 17px;
 }
 
 #interest-text ul li {
@@ -162,4 +165,47 @@ body {
 
 #photo-section td {
     text-align: center;
+}
+
+#footer {
+    background-color: #A6EDF8;
+    height: auto;
+}
+
+hr {
+    color: #477665;
+    background-color: #477665;
+    height: 27px;
+    width: 100%;
+}
+
+#footer-content {
+    color: white;
+    font-size: 30px;
+    text-shadow: 3px 3px 1px #477665;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 4px;
+}
+
+#footer-content img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin: 12px 25px 5px 25px;
+    padding: 10px 10px 10px 10px;
+    border: 8px solid #A6EDF8;
+    background-color: white;
+}
+
+#footer-content table {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#footer-content td {
+    text-align: center;
+    width: auto;
 }
