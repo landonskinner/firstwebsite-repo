@@ -1,3 +1,14 @@
+const subtitle = document.getElementById('header-subtitle');
+subtitle.addEventListener('click', function() {
+    alert('okay so maybe not yet... but I will be soon. (:')
+})
+
+
+
+
+
+
+
 const introInput = document.getElementById('intro-text');
 const introImage = document.getElementById('self-photo');
 
